@@ -41,6 +41,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'seguridad.apps.SeguridadConfig',
+    'sistema',
+    'seguridad',
+    'geolocalizacion',
+    'centro_monitoreo',
+    'dispositivos',
+    'alertas',
+    'auditoria_eventos',
+    'patrulleros',
+    'reportes',
 ]
 
 MIDDLEWARE = [
